@@ -1,13 +1,21 @@
 import React from "react";
-import "./index.css";
 
 export { Page };
 
 function Page() {
   return (
     <>
-      <h1>About</h1>
-      <p>A colored page.</p>
+      <div className="d-flex justify-content-center">
+        <div className="col-sm-9">
+          <p>This project is made by Team 6</p>
+          <p>Members dedicated to this project:</p>
+          <ul>
+            <li>Kenas</li>
+            <li>Nelson</li>
+            <li>Blue</li>
+          </ul>
+        </div>
+      </div>
     </>
   );
 }

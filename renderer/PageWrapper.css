@@ -13,7 +13,21 @@ a {
 
 .navitem {
   padding: 3px 10px;
+  margin-right: 1em;
+  color: #e5e5e5;
+}
+.navitem:hover {
+  color: #e5e5e5;
 }
 .navitem.is-active {
-  background-color: #eee;
+  background-color: #191919;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+thead {
+  text-transform: uppercase;
+}
+td {
+  font-size: 12px;
 }
